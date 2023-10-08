@@ -87,7 +87,7 @@
     <Link Source="CategoryCourse" Target="Category" Category="Foreign Key" Annotations="" Bounds="317.869354248047,237.880004882813,66.6245422363281,122.001068115234" From="CategoryCourse.CategoriesId" IsUnique="False" Label="1:*" LabelBounds="341.384910915858,308.84,14.0733333333333,15.96" Name="CategoryCourse -&gt; Category" To="Category.Id" />
     <Link Source="CategoryCourse" Target="CategoryCourse.CategoriesId" Category="Contains" />
     <Link Source="CategoryCourse" Target="CategoryCourse.CoursesId" Category="Contains" />
-    <Link Source="CategoryCourse" Target="Course" Category="Foreign Key" Annotations="" Bounds="472.337249755859,237.880004882813,85.6329650878906,95.7358703613281" From="CategoryCourse.CoursesId" IsUnique="False" Label="1:*" LabelBounds="560.753250477352,319.610769878284,14.0733333333333,15.96" Name="CategoryCourse -&gt; Course" To="Course.Id" />
+    <Link Source="CategoryCourse" Target="Course" Category="Foreign Key" Annotations="" Bounds="472.337249755859,237.880004882813,85.6329650878906,95.7358703613281" From="CategoryCourse.CoursesId" IsUnique="False" Label="1:*" LabelBounds="560.753250477353,319.610769878284,14.0733333333333,15.96" Name="CategoryCourse -&gt; Course" To="Course.Id" />
     <Link Source="Chapter" Target="Chapter.Course" Category="Contains" />
     <Link Source="Chapter" Target="Chapter.CourseId" Category="Contains" />
     <Link Source="Chapter" Target="Chapter.CreatedAt" Category="Contains" />
@@ -114,10 +114,10 @@
     <Link Source="Course" Target="Course.Students" Category="Contains" />
     <Link Source="Course" Target="Course.UpdatedAt" Category="Contains" />
     <Link Source="Course" Target="Course.UpdatedBy" Category="Contains" />
-    <Link Source="CourseStudent" Target="Course" Category="Foreign Key" Annotations="" Bounds="936.641662597656,237.880004882813,82.4943237304688,95.7125854492188" From="CourseStudent.CoursesId" IsUnique="False" Label="1:*" LabelBounds="931.316419357666,322.024452940154,14.0733333333334,15.96" Name="CourseStudent -&gt; Course" To="Course.Id" />
+    <Link Source="CourseStudent" Target="Course" Category="Foreign Key" Annotations="" Bounds="936.641662597656,237.880004882813,82.4943237304688,95.7125854492188" From="CourseStudent.CoursesId" IsUnique="False" Label="1:*" LabelBounds="931.316419357666,322.024452940154,14.0733333333335,15.96" Name="CourseStudent -&gt; Course" To="Course.Id" />
     <Link Source="CourseStudent" Target="CourseStudent.CoursesId" Category="Contains" />
     <Link Source="CourseStudent" Target="CourseStudent.StudentsId" Category="Contains" />
-    <Link Source="CourseStudent" Target="Student" Category="Foreign Key" Annotations="" Bounds="1106.24340820313,237.880004882813,55.7384033203125,94.1748962402344" From="CourseStudent.StudentsId" IsUnique="False" Label="1:*" LabelBounds="1138.89153975227,308.84,14.0733333333335,15.96" Name="CourseStudent -&gt; Student" To="Student.Id" />
+    <Link Source="CourseStudent" Target="Student" Category="Foreign Key" Annotations="" Bounds="1106.24340820313,237.880004882813,55.7384033203125,94.1748962402344" From="CourseStudent.StudentsId" IsUnique="False" Label="1:*" LabelBounds="1138.89153975227,308.84,14.0733333333333,15.96" Name="CourseStudent -&gt; Student" To="Student.Id" />
     <Link Source="IModel" Target="Category" Category="Contains" />
     <Link Source="IModel" Target="CategoryCourse" Category="Contains" />
     <Link Source="IModel" Target="Chapter" Category="Contains" />
